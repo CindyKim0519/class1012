@@ -7,6 +7,9 @@ body {
 .header {
     height: 48px;
 }    
+.logo-img-size {
+    width: 100px;
+}
 .sidebar {
     width: 220px;
     height: calc(100vh - 48px);
@@ -20,60 +23,12 @@ body {
     overflow-y: auto;
     margin-left: 220px;
 }
-.mid-gray-color {
-    color: #6c6c6c !important;
+.home-icon-size {
+    width: 18px;
+    height: 18px;
 }
-.dark-gray-color {
-    color: #373737 !important;
-}
-.search {
-    position:relative;
-    min-width: 300px;
-    height: 38px;
-    .btn-search {
-        position:absolute;
-        right: 0;
-        top:0;
-    }
-}
-.font-size-sm {
-    font-size: 14px;
-}
-
-.pagination-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border: none;
-    background: transparent;
-    text-decoration: none;
-}
-.pagination-number {
-    width: 48px;
-    height: 48px;
-    font-size: 15px;
-    border-radius: 8px;
-}
-.pagination-number.active {
-    border: solid 1px #495057;
-    font-weight: 600;
-}
-.th-border-bottom {
-    border-bottom: solid 2px #cbcfd3;
-}
-.th-title-width {
-    width: 130px;
-}
-.orange-text-color {
-    color: #FF5000;
-}
-
-.btn-outline-secondary {
-    &:hover {
-        background-color: transparent !important;
-    }
+.top-th-width {
+    width: 90px;
 }
 .cancel-th-width {
     width: 160px;
@@ -81,15 +36,12 @@ body {
 .user-th-width {
     width: 110px;
 }
-.top-th-width {
-    width: 90px;
-}
 .btn-outline-gray {
     border: solid 1px #b0b0b0 !important;
 }
+.orange-text-color {
+    color: #FF5000;
+}
 .font-size-sm {
     font-size: 15px;
-}
-.font-size-md {
-    font-size: 16px;
 }
